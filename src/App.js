@@ -12,7 +12,7 @@ const App = () => {
       <header>
         <Link to="/">Home</Link>
         <Link id="order-pizza" to="/pizza">Pizza form</Link>
-        <Link to="/orders">Orders</Link>
+        
         
       </header>
       <h1>Lambda Eats</h1>
@@ -24,10 +24,6 @@ const App = () => {
 
           <Route exact path="/pizza/">
             <PizzaForm />
-          </Route>
-
-          <Route exact path="/orders">
-            <h2>Orders</h2>
           </Route>
         </Switch>
       </main>

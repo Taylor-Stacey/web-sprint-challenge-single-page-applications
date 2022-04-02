@@ -41,3 +41,13 @@ header {
   display: flex;
   justify-content: space-evenly;
 }
+
+.pizza-display{
+  display: flex;
+  flex-direction: column;
+}
+
+.pizza-text{
+  display: flex;
+  flex-direction: column;
+}
